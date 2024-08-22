@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-ID Agent SDK</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+    <h1>Hi D-ID Agent!</h1>
+    <div id="app">
+        <div id="messages"></div>
+        <input v-model="message" placeholder="Type your message here" />
+        <button @click="sendMessage">Send</button>
+    </div>
+    <script src="agentSetup.js"></script>
+</body>
+</html>
