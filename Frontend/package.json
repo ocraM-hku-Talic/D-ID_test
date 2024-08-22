@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@d-id/client-sdk": "^1.0.19-beta.122"
+  }
+}
